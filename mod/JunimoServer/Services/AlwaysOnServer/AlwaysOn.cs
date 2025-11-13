@@ -561,7 +561,7 @@ namespace JunimoServer.Services.AlwaysOn
 
         private void HandleJojaMarket()
         {
-            if (!Config.IsCommunityCenterRun)
+            if (Config.IsCommunityCenterRun)
             {
                 return;
             }
